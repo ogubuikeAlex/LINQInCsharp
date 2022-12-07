@@ -92,7 +92,7 @@
              new Racer("Mike", "Hawthorn", "UK", 45, 3, new int[] { 1958 }, new string[] { "Ferrari" }),
              new Racer("Phil", "Hill", "USA", 48, 3, new int[] { 1961 }, new string[] { "Ferrari" }),
              new Racer("John", "Surtees", "UK", 111, 6, new int[] { 1964 }, new string[] { "Ferrari" }),
-             new Racer("Jim", "Clark", "UK", 72, 25, new int[] { 1963, 1965 }, new string[] { "Lotus" }),
+             new Racer("Jim", "Clark", "UKARAIN", 72, 25, new int[] { 1963, 1965 }, new string[] { "Lotus" }),
              new Racer("Jack", "Brabham", "Australia", 125, 14,new int[] { 1959, 1960, 1966 }, new string[] { "Coper", "Brabham" }),
              new Racer("Denny", "Hulme", "New Zealand", 112, 8, new int[] { 1967 }, new string[] { "Brabham" }),
              new Racer("Graham", "Hill", "UK", 176, 14, new int[] { 1962, 1968 }, new string[] { "BRM", "Lotus" }),
