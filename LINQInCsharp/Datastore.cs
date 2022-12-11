@@ -77,6 +77,10 @@
                         throw new FormatException($"Format {format} not supported");
                 }
             }
+            public override bool Equals(object? obj)
+            {
+                return Wins > (obj as Racer).Wins;
+            }
         }
 
         public static class Formula1
@@ -147,3 +151,12 @@
         }
     }
 }
+//TryOuts
+
+//Grouping
+//the Formula-1 champions should be grouped by country,
+//and the number of champions within a country should be listed
+
+//Join
+//get a list by year in which every year lists the driver
+//and the constructor champions.

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections;
 using static LINQInCsharp.Datastore;
 
 namespace LINQInCsharp
@@ -36,7 +31,7 @@ namespace LINQInCsharp
         }
         public static void UsingOfTypeMethodSyntax()
         {
-            ArrayList arrayList = new ArrayList()
+            ArrayList arrayList = new ()
             {
                 1, 2,"Alex", true, 3,5, "Alexa"
             };
@@ -48,7 +43,6 @@ namespace LINQInCsharp
                 Console.WriteLine(number);
             }
         }
-
         public static void UsingIsQuerySyntax()
         {
             List<object> list = new ()
@@ -65,8 +59,6 @@ namespace LINQInCsharp
                 Console.WriteLine(number);
             }
         }
-
-
         public static void UsingWhereQuerySyntaxTest()
         {
             var result = from racer in Formula1.GetChampions()
@@ -79,8 +71,6 @@ namespace LINQInCsharp
                 Console.WriteLine(racer);
             }
         }
-
-
         public static void UsingWhereMethodSyntaxTest()
         {
             var result = Formula1.GetChampions()
@@ -91,8 +81,7 @@ namespace LINQInCsharp
                 Console.WriteLine(racer);
             }
 
-        }
-        
+        }        
         //Charles
         public static void QueryRacers2()
         {
@@ -106,7 +95,6 @@ namespace LINQInCsharp
                 Console.WriteLine(item);
             }
         }
-
         public static void QueryUkRacers2()
         {
             var result = Formula1.GetChampions().Where(racer => racer.Country.Contains("UK"));
@@ -116,7 +104,6 @@ namespace LINQInCsharp
                 Console.WriteLine(item);
             }
         }
-
         //Stephen
         public static void LondonRacers()
         {
@@ -134,7 +121,6 @@ namespace LINQInCsharp
                 Console.WriteLine(racerY.Racer.FirstName);
             }
         }
-
         public static void Template()
         {
 

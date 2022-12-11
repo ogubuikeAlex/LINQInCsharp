@@ -1,7 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LINQInCsharp;
+using static LINQInCsharp.SortingOperators;
+using static LINQInCsharp.TakePartitiioningOperators;
+using static LINQInCsharp.SkipPartitiioningOperators;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!\n\n");
 
 //ProjectorOperator.UsingQuerySyntaxWithSelect();
 //ProjectorOperator.UsingMethodsSyntaxWithSelect();
@@ -19,4 +22,22 @@ Console.WriteLine("Hello, World!");
 //FilteringOperator.QueryUkRacers2();
 
 //Stephen
-FilteringOperator.LondonRacers();
+//FilteringOperator.LondonRacers();
+
+//SortingViaQuerySyntax();
+//SortingViaMethodSyntax();
+
+//TakePartitiioningOperators.UsingTake();
+//UsingTakeWhile();
+//UsingTakeLast();
+//UsingSkip();
+//UsingSkipWhile();
+//UsingSkipLast();
+//PartitiioningOperatorsWithRangeAndIndex.UsingSkip();
+//.TestDeferredQueries();
+//DeferredQuery.TestAggregateQueries();
+DeferredQuery.UsingQuantification();
+
+
+
+
